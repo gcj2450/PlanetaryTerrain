@@ -1,8 +1,14 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// 星球的面, 总共6个
+/// </summary>
 public class Face
 {
+    /// <summary>
+    /// 面的根Chunk
+    /// </summary>
     private readonly Chunk _chunk;
 
     private readonly Mesh _mesh;

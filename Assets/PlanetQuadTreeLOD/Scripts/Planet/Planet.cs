@@ -3,23 +3,44 @@ using UnityEngine;
 
 public class Planet : MonoBehaviour
 {
+    /// <summary>
+    /// 星球分辨率
+    /// </summary>
     [Range(4, 10)]
     public int resolution = 5;
 
+    /// <summary>
+    /// 星球半径
+    /// </summary>
     public float radius;
 
+    /// <summary>
+    /// 高度随机种子
+    /// </summary>
     public int seed;
 
+    /// <summary>
+    /// Noise生成器
+    /// </summary>
     public SimpleNoiseGenerator generator;
 
+    /// <summary>
+    /// Noise设置
+    /// </summary>
     public SimpleNoiseSettings settings;
     
     public Material mat;
 
+    /// <summary>
+    /// 细节等级
+    /// </summary>
     public float[] detailLevel = {1500, 1000, 800, 500, 300, 100};
 
     public Transform player;
 
+    /// <summary>
+    /// 星球的6个面
+    /// </summary>
     private Face[] _faces;
 
     public int[,] VertGenIndices { get; private set; }

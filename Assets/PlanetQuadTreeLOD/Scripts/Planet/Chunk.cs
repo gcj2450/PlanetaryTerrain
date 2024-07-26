@@ -99,9 +99,9 @@ public class Chunk
         }
     }
 
-    /**
-     * This function will generate the data for this chunk only if they have not been generated yet
-     */
+    /// <summary>
+    /// This function will generate the data for this chunk only if they have not been generated yet
+    /// </summary>
     public void Generate()
     {
         if (_vertices != null)

@@ -11,7 +11,6 @@ Material:
   m_Shader: {fileID: 4800000, guid: 85d91f9387baa22409169329b5480b2e, type: 3}
   m_ValidKeywords:
   - COMBINED_SCATTERING_TEXTURES
-  - RENDER_GROUND
   m_InvalidKeywords:
   - _RENDERGROUND_ON
   m_LightmapFlags: 4
